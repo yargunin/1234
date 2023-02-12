@@ -33,6 +33,9 @@
                                 <state key="normal" title="Приветсвие">
                                     <color key="titleColor" systemColor="systemGray5Color"/>
                                 </state>
+                                <connections>
+                                    <action selector="gretingButtonTab:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pOS-Lj-ibu"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -45,6 +48,10 @@
                             <constraint firstItem="wf8-rq-92T" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="75" id="khr-QG-Oov"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="gretingButton" destination="Ftc-C8-n1f" id="Vq9-3s-wNv"/>
+                        <outlet property="gretingLabel" destination="wf8-rq-92T" id="hBr-0U-h10"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
