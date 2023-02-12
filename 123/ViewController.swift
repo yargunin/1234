@@ -29,7 +29,6 @@ class ViewController: UIViewController {
         gretingButton.setTitle(
             gretingLabel.isHidden ? "Показать" :  "Убрать", for: .normal
         )
-        
     }
 }
 
